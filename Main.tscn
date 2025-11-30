@@ -8,15 +8,16 @@
 shader = ExtResource("3_e353f")
 shader_parameter/hpass = 1.0
 shader_parameter/vpass = 1.0
-shader_parameter/radius = 65
 shader_parameter/unit = Vector2(1, 1)
-shader_parameter/intensity = 1.0
+shader_parameter/radius = 65
+shader_parameter/radius_scale = 0.30000000447036
+shader_parameter/intensity = 6.0
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_qskfj")
 
 [node name="Icon" type="Sprite2D" parent="."]
-modulate = Color(3.180048, 4.768813, 5.912981, 1)
+modulate = Color(10.215637, 15.259651, 18.892157, 1)
 position = Vector2(301, 140)
 texture = ExtResource("1_t05dk")
 
