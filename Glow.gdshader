@@ -5,7 +5,6 @@ uniform float hpass : hint_range(0.0, 1.0, 0.1) = 1.0;
 uniform float vpass : hint_range(0.0, 1.0, 0.1) = 1.0;
 uniform int radius : hint_range(0, 65, 1) = 65;
 uniform vec2 unit = vec2(1., 1.);
-uniform float intensity : hint_range(0.0, 5.0, 0.1) = 1.0;
 render_mode blend_add;
 
 vec4 textureThresholded(sampler2D _texture, vec2 _uv, float _bias) {
