@@ -8,20 +8,22 @@
 shader = ExtResource("3_e353f")
 shader_parameter/hpass = 1.0
 shader_parameter/vpass = 1.0
+shader_parameter/radius = 65
 shader_parameter/unit = Vector2(1, 1)
+shader_parameter/intensity = 1.0
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_qskfj")
 
 [node name="Icon" type="Sprite2D" parent="."]
-modulate = Color(10.215637, 15.270281, 18.892157, 1)
+modulate = Color(3.180048, 4.768813, 5.912981, 1)
 position = Vector2(301, 140)
 texture = ExtResource("1_t05dk")
 
 [node name="Line2D" type="Line2D" parent="."]
 points = PackedVector2Array(166, 65, 197, 152)
 width = 2.0
-default_color = Color(14.455972, 8.882378, 18.892002, 1)
+default_color = Color(2.50982, 1.5259595, 3.2944162, 1)
 joint_mode = 2
 begin_cap_mode = 2
 end_cap_mode = 2
@@ -32,7 +34,7 @@ offset_top = 145.0
 offset_right = 115.0
 offset_bottom = 185.0
 rotation = 0.689405
-color = Color(5.912981, 2.9970381, 2.9970381, 1)
+color = Color(3.2944162, 1.6578985, 1.6578985, 1)
 
 [node name="Icon2" type="Sprite2D" parent="."]
 position = Vector2(234.99997, 152.99998)
